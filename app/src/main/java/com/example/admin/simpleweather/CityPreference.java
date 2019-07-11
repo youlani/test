@@ -10,7 +10,7 @@ public class CityPreference {
 
     }
     String getCity(){
-        return prefs.getString("city", "HangZhou, CN");
+        return prefs.getString("city", "WenZhou, CN");
     }
     void  setCity(String  city)
     {
